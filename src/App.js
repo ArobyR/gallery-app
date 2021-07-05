@@ -1,12 +1,14 @@
 import React from 'react';
 import Container from './componets/Container';
+import Footer from './componets/Footer';
+import Header from './componets/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Gallery App</h1>
-      <hr />
+    <div className="">
+      <Header />
       <Container />
+      <Footer />
     </div>
   );
 }
