@@ -1,0 +1,13 @@
+import React from "react";
+
+const Header = () => {
+  return (
+    <nav class="navbar navbar-light bg-dark">
+      <div class="container-fluid">
+        <h1 className="text-center p-2 text-white">Gallery App</h1>
+      </div>
+    </nav>
+  );
+};
+
+export default Header;
